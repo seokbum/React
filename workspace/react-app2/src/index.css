@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.APP{
+  width: 800px;
+  margin: 0 auto;
+}
+.header{
+  position: relative;
+}
+.header .menu {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.header .link {
+  border : 1px solid #333333;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #efefef;
+  font-weight: bold;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+}
+.list_day {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list_day li{
+  flex :20% 0 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+ol,ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  width: 25%;
+  height: 70px;
+  border :1px solid #cccccc;
+  text-align: center;
+  font-size: 26px;
+}
+table td:first-child{
+  width: 20%;
+}
